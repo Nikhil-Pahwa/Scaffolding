@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url("#{$fontPath}/opensans/opensans-bold-webfont.eot");
+    src: url("#{$fontPath}/opensans/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/opensans/opensans-bold-webfont.woff2") format("woff2"), url("#{$fontPath}/opensans/opensans-bold-webfont.woff") format("woff"), url("#{$fontPath}/opensans/opensans-bold-webfont.ttf") format("truetype"), url("#{$fontPath}/opensans/opensans-bold-webfont.svg#open_sansbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url("#{$fontPath}/opensans/opensans-regular-webfont.eot");
+    src: url("#{$fontPath}/opensans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/opensans/opensans-regular-webfont.woff2") format("woff2"), url("#{$fontPath}/opensans/opensans-regular-webfont.woff") format("woff"), url("#{$fontPath}/opensans/opensans-regular-webfont.ttf") format("truetype"), url("#{$fontPath}/opensans/opensans-regular-webfont.svg#open_sansregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url("#{$fontPath}/opensans/opensans-light-webfont.eot");
+    src: url("#{$fontPath}/opensans/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/opensans/opensans-light-webfont.woff2") format("woff2"), url("#{$fontPath}/opensans/opensans-light-webfont.woff") format("woff"), url("#{$fontPath}/opensans/opensans-light-webfont.ttf") format("truetype"), url("#{$fontPath}/opensans/opensans-light-webfont.svg#open_sanslight") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Henderson_sansbold';
+    src: url("#{$fontPath}/henderson/HendersonBCGSans-Bold.eot");
+    src: url("#{$fontPath}/henderson/HendersonBCGSans-Bold.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/henderson/HendersonBCGSans-Bold.woff2") format("woff2"), url("#{$fontPath}/henderson/HendersonBCGSans-Bold.woff") format("woff"), url("#{$fontPath}/henderson/HendersonBCGSans-Bold.ttf") format("truetype"), url("#{$fontPath}/henderson/HendersonBCGSans-Bold.svg#Henderson_sansbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Henderson_sansregular';
+    src: url("#{$fontPath}/henderson/HendersonBCGSans-Regular.eot");
+    src: url("#{$fontPath}/henderson/HendersonBCGSans-Regular.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/henderson/HendersonBCGSans-Regular.woff2") format("woff2"), url("#{$fontPath}/henderson/HendersonBCGSans-Regular.woff") format("woff"), url("#{$fontPath}/henderson/HendersonBCGSans-Regular.ttf") format("truetype"), url("#{$fontPath}/henderson/HendersonBCGSans-Regular.svg#Henderson_sansregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Henderson_serifbold';
+    src: url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.eot");
+    src: url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.woff2") format("woff2"), url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.woff") format("woff"), url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.ttf") format("truetype"), url("#{$fontPath}/henderson/HendersonBCGSerif-Bold.svg#Henderson_serifbold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Henderson_serifregular';
+    src: url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.eot");
+    src: url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.eot?#iefix") format("embedded-opentype"), url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.woff2") format("woff2"), url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.woff") format("woff"), url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.ttf") format("truetype"), url("#{$fontPath}/henderson/HendersonBCGSerif-Regular.svg#Henderson_serifregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}

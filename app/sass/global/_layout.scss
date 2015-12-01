@@ -1,0 +1,150 @@
+/*this is layout scss*/
+.container {
+    width: 950px;
+    margin: 0 auto;
+    #content {
+        width: 100%;
+        #stories {
+            position: relative;
+        }
+    }
+}
+
+svg {
+    width: 934px;
+    height: 534px;
+    margin-left: 16px;
+    overflow: visible;
+    .triangle {
+        fill: $bodyBg;
+    }
+    
+    .growth-up {
+        fill: $lightGray;
+    }
+    
+    .growth-down {
+        fill: $gray;
+    }
+    
+    .axis-label{
+        text{
+            fill: $gray;
+            stroke: none;
+            font-size: 11px;
+            position: absolute;
+        }
+        .tick,path{
+            fill: none;
+            stroke: none;
+        }
+    }
+    
+    .axis-line{
+        .tick,path{
+            fill: none;
+            stroke: $lightGray;
+            stroke-width: 1px;
+            shape-rendering: crispEdges;
+        }
+    }
+}
+
+#dashboard {
+    width: 950px;
+    
+    #growth, #growth-x, #growth-y {
+        pointer-events: none;
+        text-transform: none;
+        font-weight: 700;
+        text-align: center;
+        font-size: 12px;
+        width: 70px;
+        margin: 0;
+        height: 16px;
+        position: absolute;
+        line-height: 12px;    
+    }
+    
+    .row {
+        width: 100%;
+        max-width: 1450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        //max-width: 62.5rem;
+    }
+    
+    .content-row {
+        height: 550px;
+    }
+    
+  
+    #axisLabel, #currentYearLabel, #growth, #maxYearLabel, #saturnLabel, #sizeLabel, #xLabel, #yLabel {
+        margin: 0;
+        height: 16px;
+        font-size: 11px;
+        font-weight: 700;
+        position: absolute;
+    }
+    
+    #axisLabel span, #bigYearLabel span, #currentYearLabel span, #growth span, #growth-x span, #growth-y span, #littleYearLabel span, #maxYearLabel span, #saturnLabel span, #sizeLabel span, #xLabel span, #yLabel span {
+        height: 100%;
+        line-height: 16px;
+    }
+   
+    #currentYearLabel {
+        color: $white;
+        font-weight: 400;
+    }
+    
+    #maxYearLabel {
+        color: $baseColor;
+        font-weight: 400;        
+    }
+     
+     #xLabel {
+        top: 534px;
+        line-height: 16px;
+        text-align: center;
+        background-color: $lightGray;
+        span {
+            height: 16px;
+        }
+    }
+    
+    #yLabel {
+        margin-top: -1px;
+        text-align: right;
+        background-color: $lightGray;
+        span {
+            padding-right: 12px;
+        }
+    }
+    
+    #growth-y {
+        color: $gray;
+    }
+    
+    #growth-x {
+        color: $white;
+    }
+    
+    #growth, #growth-x, #growth-y, .rotate-arrows {      
+        @include transform-origin(rotate(-30deg));     
+    }
+    
+    .rotate {            
+        @include transform-origin(rotate(-90deg));
+    }
+}
+
+// .axis path, .axis line {
+//     fill: none;
+//     shape-rendering: crispedges;
+//     stroke: $black;
+// }
+
+
+

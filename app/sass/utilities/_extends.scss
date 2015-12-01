@@ -1,0 +1,13 @@
+/*this is extends scss*/
+
+//Mixin
+@mixin transform-origin($rotate) {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform: $rotate;
+    -moz-transform: $rotate;
+    -ms-transform: $rotate;
+    -o-transform: $rotate;
+}

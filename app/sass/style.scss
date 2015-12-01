@@ -1,0 +1,23 @@
+$imagePath: "../images";
+$fontPath: "../font";
+
+/* Compass Settings */
+@import "compass";
+
+/* Sprite Image Setup */
+$icons-layout: smart;
+
+// @import "icons/*.png";
+
+/* Global Styles */
+@import "global/variables";
+@import "global/typography";
+@import "utilities/extends";
+@import "global/base";
+@import "global/layout";
+
+/* Page Specific Styles */
+@import "pages/topNav";
+
+/*overrides*/
+@import "utilities/overrides";

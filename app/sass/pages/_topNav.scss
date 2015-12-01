@@ -1,0 +1,84 @@
+// Top Navigation styles common for all chapters
+.interface {
+    position: absolute;
+    padding-left: 86px;
+    padding-top: 8px;
+    z-index: 2;
+    .navbuttons {
+        display: inline;
+        float: right;
+        .navbutton {
+            background-repeat: no-repeat;
+            width: 37px;
+            height: 37px;
+            display: block;
+            background-size: 37px 37px;
+            margin-right: 10px;
+            cursor: pointer;
+            &.nav-help{
+                background-image: url(../images/Buttons-01.png);
+            }
+            &.nav-home {
+                background-image: url(../images/Buttons-02.png);
+            }
+            &.nav-previous {
+                background-image: url(../images/Buttons-04.png);
+            }
+            &.nav-next {
+                background-image: url(../images/Buttons-03.png);
+            }
+            &.nav-next-highlight {
+                background-image: url(../images/Buttons-03.highlight.png);
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+    a {
+        float: left;
+        font-size: 36px;
+        color: $lightGray;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+}
+
+// Top navigation alignment for chapter 1-4
+.stories-buttons {
+    padding-left: 675px;
+    margin-left: 36px;
+}
+
+// Help button popup css in chapter 5
+.modal-content {
+    .modal-body{
+        padding: 20px;
+    }
+    .help-close-icon {
+        background-image: url(../images/icons/help-close-icon.png);
+        background-size: 20px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+    }
+    h5 {
+        color: $gray;
+        font-size: 11px;
+        font-weight: 700;
+        margin-top: 9px;
+        margin-bottom: 4px;
+        text-rendering: optimizeLegibility;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1em;
+        font-weight: 200;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-rendering: optimizeLegibility;
+    }
+}
